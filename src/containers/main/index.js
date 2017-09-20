@@ -12,7 +12,7 @@ class Main extends PureComponent {
   render() {
     return (
       <div>
-        <Navbar fixedTop staticTop>
+        <Navbar inverse fixedTop staticTop>
           <Navbar.Header>
             <Navbar.Brand>
               <Link to = "/">{ I18n.t('shared.applicationName') }</Link>
