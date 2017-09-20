@@ -3,14 +3,29 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-scripts": "1.0.13"
+    "axios": "0.16.2",
+    "bootstrap": "3",
+    "react": "15.6.1",
+    "react-bootstrap": "0.31.3",
+    "react-dom": "15.6.1",
+    "react-redux": "5.0.6",
+    "react-redux-i18n": "1.9.0",
+    "react-router": "4.2.0",
+    "react-router-dom": "4.2.2",
+    "react-scripts": "1.0.13",
+    "redux": "3.7.2",
+    "redux-thunk": "2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "21.0.2",
+    "jest": "21.1.0",
+    "redux-logger": "3.0.6",
+    "regenerator-runtime": "0.11.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "jest",
     "eject": "react-scripts eject"
   }
 }
