@@ -1,4 +1,5 @@
 import React, { PureComponent } from 'react';
+import PropTypes from 'prop-types';
 import { ProgressBar } from 'react-bootstrap';
 
 class Load extends PureComponent {
@@ -10,5 +11,9 @@ class Load extends PureComponent {
     return null;
   }
 }
+
+Load.propTypes = {
+  show : PropTypes.bool.isRequired
+};
 
 export default Load;
