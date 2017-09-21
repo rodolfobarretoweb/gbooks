@@ -1,3 +1,4 @@
 export const favorite = {
-  title : 'My favorites'
+  title : 'My favorites',
+  noResults : 'No book has been favored yet :('
 };
