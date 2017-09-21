@@ -5,3 +5,6 @@
     Start in develop mode: yarn start
     Generate build and test: yarn build
     Start tests: yarn test
+
+#### Demo
+    To see it working: http://gbooks-demo.surge.sh

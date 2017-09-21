@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
-import { PageHeader } from 'react-bootstrap';
+import { Well, PageHeader } from 'react-bootstrap';
 import { I18n } from 'react-redux-i18n';
 import { getAll } from '../../actions/favorite';
 import Item from '../shared/bookItem';
@@ -35,7 +35,7 @@ class FavoriteList extends PureComponent {
       });
     }
 
-    return null;
+    return <Well>{ I18n.t('favorite.noResults') }</Well>;
   }
 }
 
