@@ -33,7 +33,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "yarn test && react-scripts build",
     "test": "REACT_APP_API_BASE_URL=https://www.googleapis.com/books/v1 jest --updateSnapshot",
     "eject": "react-scripts eject"
   }
