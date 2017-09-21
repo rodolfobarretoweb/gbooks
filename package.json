@@ -21,17 +21,20 @@
     "store2": "2.5.5"
   },
   "devDependencies": {
+    "axios-mock-adapter": "1.9.0",
     "babel-jest": "21.0.2",
     "babel-preset-es2015": "6.24.1",
     "babel-preset-react": "6.24.1",
     "jest": "21.1.0",
+    "jest-localstorage-mock": "2.0.0",
     "redux-logger": "3.0.6",
+    "redux-mock-store": "1.3.0",
     "regenerator-runtime": "0.11.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest --updateSnapshot",
+    "test": "REACT_APP_API_BASE_URL=https://www.googleapis.com/books/v1 jest --updateSnapshot",
     "eject": "react-scripts eject"
   }
 }

@@ -1,13 +1,9 @@
 import axios from 'axios';
 
-const instance = axios.create({
-  baseURL : process.env.REACT_APP_API_BASE_URL
-});
-
 export function get(uri) {
-  return instance.get(uri);
+  return axios.get(process.env.REACT_APP_API_BASE_URL + uri);
 }
 
 export function post(uri, data) {
-  return instance.post(uri, data);
+  return axios.post(process.env.REACT_APP_API_BASE_URL + uri, data);
 }

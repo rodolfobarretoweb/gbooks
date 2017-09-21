@@ -26,11 +26,11 @@ class Details extends PureComponent {
     };
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.props.getById(this.props.match.params.id || 0).then(() => {
       this.setState({ showLoad : false });
     }).catch(() => {
-      this.setState({ showLoad : false });
+      this.props.history.push('error-message');
     });
   }
 

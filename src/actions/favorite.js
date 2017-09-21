@@ -17,7 +17,11 @@ export function save(id, data) {
 
 export function getAll() {
   return dispatch => {
-    dispatch({ type : GET_ALL_FAVORITE, payload : values(store.getAll()) });
+    const payload = values(store.getAll());
+
+    dispatch({ type : GET_ALL_FAVORITE, payload });
+
+    return payload;
   }
 }
 

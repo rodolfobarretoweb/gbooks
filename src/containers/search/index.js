@@ -91,7 +91,7 @@ class Search extends PureComponent {
     this.props.search(terms.query).then(() => {
       this.setState({ showLoad : false });
     }).catch((error) => {
-      this.setState({ showLoad : false });
+      this.props.history.push('error-message');
     });
   }
 

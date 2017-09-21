@@ -1,0 +1,759 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 603,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "ZGnhM8L9l_gC",
+      "etag": "UpWcbUXRI/I",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ZGnhM8L9l_gC",
+      "volumeInfo": {
+        "title": "Planejamento Estratégico",
+        "authors": [
+          "HARVARD BUSINESS REVIEW"
+        ],
+        "publisher": "Elsevier Brasil",
+        "publishedDate": "2002",
+        "description": "Este livro ajudará o leitor a identificar e aproveitar oportunidades estratégicas. Reunindo artigos recentes, publicados originalmente pela Harvard Business Review, 'Planejamento Estratégico', destaca os mais novos conceitos revolucionários nesse assunto, resultantes de pesquisas e estudos de alguns dos mais conceituados nomes em estratégia de negócios. Este volume apresenta diversos artigos, entre eles- Estratégia e Internet (Michael E. Porter); Histórias estratégicas- Como a 3M está reescrevendo o planejamento de negócios (Gordon Shaw, Robert Brown e Philip Bromiley); Enfrentando problemas com a estratégia? Mapeie-a (Robert S. Kaplan e David Norton); Estratégia como regras simples (Kathleen M. Eisenhardt e Donald N. Sull); entre outros.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "8535210210"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9788535210217"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 221,
+        "printType": "BOOK",
+        "averageRating": 3,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ZGnhM8L9l_gC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ZGnhM8L9l_gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=ZGnhM8L9l_gC&printsec=frontcover&dq=harvard&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=ZGnhM8L9l_gC&dq=harvard&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Planejamento_Estrat%C3%A9gico.html?hl=&id=ZGnhM8L9l_gC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ZGnhM8L9l_gC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Reunindo artigos recentes, publicados originalmente pela Harvard Business Review, &#39;Planejamento Estratégico&#39;, destaca os mais novos conceitos revolucionários nesse assunto, resultantes de pesquisas e estudos de alguns dos mais ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "VPj3is5rAhQC",
+      "etag": "4defeqeKHWU",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/VPj3is5rAhQC",
+      "volumeInfo": {
+        "title": "The Harvard List of Books in Psychology",
+        "authors": [
+          "Harvard University"
+        ],
+        "publisher": "Harvard University Press",
+        "publishedDate": "1971",
+        "description": "The Harvard List of Books in Psychology was first compiled in the 1930s, when each student in the department enjoyed the luxury of an individual tutorial. Together tutor and student could map out a course of reading. By 1938, the list had proved so useful that its 349 titles were annotated and printed, though mainly for local consumption. Growth of an outside demand from students, librarians, and the reading public led to a supplement in 1944 and a number of successive editions bearing the present title. The present edition updates the List without expanding it beyond useful size: for each new title the compilers have faithfully tried to delete one, and new entries account for almost half of the present total of 744. Each title is annotated with descriptive and evaluative material.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0674376013"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780674376014"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 108,
+        "printType": "BOOK",
+        "categories": [
+          "Psychology"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.2.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=VPj3is5rAhQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=VPj3is5rAhQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=VPj3is5rAhQC&printsec=frontcover&dq=harvard&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=VPj3is5rAhQC&dq=harvard&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Harvard_List_of_Books_in_Psychology.html?hl=&id=VPj3is5rAhQC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/The_Harvard_List_of_Books_in_Psychology-sample-epub.acsm?id=VPj3is5rAhQC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=VPj3is5rAhQC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "The present edition updates the List without expanding it beyond useful size: for each new title the compilers have faithfully tried to delete one, and new entries account for almost half of the present total of 744."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "vrvS7rzvsI4C",
+      "etag": "AFs7ik4V5lw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/vrvS7rzvsI4C",
+      "volumeInfo": {
+        "title": "Science at Harvard University",
+        "subtitle": "Historical Perspectives",
+        "authors": [
+          "Clark A. Elliott",
+          "Margaret W. Rossiter"
+        ],
+        "publisher": "Lehigh University Press",
+        "publishedDate": "1992",
+        "description": "\"This collection of original historical essays examines aspects of the relationship between science and the nation's oldest academic institution. This is history as viewed from the varying perspectives of a group of scholars for whom science at Harvard University is a significant component of their ongoing research. Thus, the essays are of specialist interest, while collectively the volume is a case study of science in an institutional setting. In conducting their research, the authors have used a wealth of primary sources from the Harvard Archives and other repositories.\" \"The volume opens with a thematic introduction by Margaret Rossiter reflecting the picture of Harvard science drawn in the several papers in the volume, while suggesting ways in which a study of Harvard relates to and illuminates the history of science in America.\" \"The subsequent papers follow a generally chronological sequence, beginning with Sara Schechner Genuth's study of attitudes toward comets in relation to early Harvard University programs and functions. Mary Ann James examines the beginnings of applied science at Harvard, and Bruce Sinclair continues that theme with a comparative study of MIT and Harvard.\" \"Toby Appel's paper on zoologist Jeffries Wyman identifies the special part that personal character plays in institutional history. Curtis Hinsley concentrates on facilities and shows how the Peabody Museum gave rise to teaching in anthropology. David Livingstone's biographical treatment of Nathaniel S. Shaler reveals a number of intellectual strands running through the University in the late nineteenth century, and John Parascandola's paper on L. J. Henderson likewise deals with a figure of wide influence and many interests, ranging from biochemistry to sociology. The latter topic leads to Lawrence Nichols's account of the rise of sociology at Harvard. A view of the internal tensions within psychology are seen in Rodney Triplet's study of Henry A. Murray.\" \"I. Bernard Cohen examines the relations among Howard Aiken, IBM, and Harvard in the development of the Mark I computer, while Peggy Kidwell studies the Observatory community during World War II and its response to national defense and a developing federal support system.\" \"Finally, Clark Elliott considers the history of Harvard science as a field for study through a review of published literature and archival sources and makes suggestions for further investigation.\"--BOOK JACKET.Title Summary field provided by Blackwell North America, Inc. All Rights Reserved",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0934223122"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780934223126"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 380,
+        "printType": "BOOK",
+        "categories": [
+          "Education"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=vrvS7rzvsI4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=vrvS7rzvsI4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=vrvS7rzvsI4C&printsec=frontcover&dq=harvard&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=vrvS7rzvsI4C&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-vrvS7rzvsI4C"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 183.27,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 183.27,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=vrvS7rzvsI4C&rdid=book-vrvS7rzvsI4C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 183270000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 183270000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Science_at_Harvard_University-sample-epub.acsm?id=vrvS7rzvsI4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Science_at_Harvard_University-sample-pdf.acsm?id=vrvS7rzvsI4C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=vrvS7rzvsI4C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "&quot;This collection of original historical essays examines aspects of the relationship between science and the nation&#39;s oldest academic institution."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "VKyewTv_V04C",
+      "etag": "oWaSn9VLfe4",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/VKyewTv_V04C",
+      "volumeInfo": {
+        "title": "The Harvard University Hymn Book",
+        "authors": [
+          "Harvard University"
+        ],
+        "publisher": "Harvard University Press",
+        "publishedDate": "1964-01",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0674380002"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780674380004"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 396,
+        "printType": "BOOK",
+        "categories": [
+          "Music"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.0.1.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=VKyewTv_V04C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=VKyewTv_V04C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=VKyewTv_V04C&printsec=frontcover&dq=harvard&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=VKyewTv_V04C&dq=harvard&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Harvard_University_Hymn_Book.html?hl=&id=VKyewTv_V04C"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=VKyewTv_V04C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Qtu6AAAAIAAJ",
+      "etag": "RH43yEREy4k",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Qtu6AAAAIAAJ",
+      "volumeInfo": {
+        "title": "Biographical Sketches of Graduates of Harvard University",
+        "subtitle": "In Cambridge, Massachusetts",
+        "authors": [
+          "John Langdon Sibley",
+          "Clifford Kenyon Shipton"
+        ],
+        "publishedDate": "1873",
+        "description": "Vol. 1 includes \"an appendix, containing an abstract of the steward's accounts, and notices of non-graduates, from 1649-50 to 1659.\"",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UCAL:B4192314"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Boston (Mass.)"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.3.0.full.1",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Qtu6AAAAIAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Qtu6AAAAIAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=Qtu6AAAAIAAJ&pg=PP1&dq=harvard&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Qtu6AAAAIAAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-Qtu6AAAAIAAJ"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FREE",
+        "isEbook": true,
+        "buyLink": "https://play.google.com/store/books/details?id=Qtu6AAAAIAAJ&rdid=book-Qtu6AAAAIAAJ&rdot=1&source=gbs_api"
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "ALL_PAGES",
+        "embeddable": true,
+        "publicDomain": true,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false,
+          "downloadLink": "http://books.google.com.br/books/download/Biographical_Sketches_of_Graduates_of_Ha.epub?id=Qtu6AAAAIAAJ&hl=&output=epub&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "downloadLink": "http://books.google.com.br/books/download/Biographical_Sketches_of_Graduates_of_Ha.pdf?id=Qtu6AAAAIAAJ&hl=&output=pdf&sig=ACfU3U0hmgGWxgXRiitFRPGhzpUv2hXSkg&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Qtu6AAAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Vol. 1 includes &quot;an appendix, containing an abstract of the steward&#39;s accounts, and notices of non-graduates, from 1649-50 to 1659.&quot;"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "H0Gz1IZ_vjgC",
+      "etag": "0Tx5rCgr+P8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/H0Gz1IZ_vjgC",
+      "volumeInfo": {
+        "title": "Big-time Football at Harvard, 1905",
+        "subtitle": "The Diary of Coach Bill Reid",
+        "authors": [
+          "Bill Reid",
+          "Ronald Austin Smith"
+        ],
+        "publisher": "University of Illinois Press",
+        "publishedDate": "1994-01-01",
+        "description": "In 1905, twenty-six-year-old Bill Reid, a former Harvard athlete, was wooed back to the campus by the offer of a salary higher than that of any faculty member and approaching that of long-time president Charles W. Eliot. His mission: beat Yale. With the intent of providing a how-to manual for future coaches, Reid set down day by day an account of his activities on and off the field. In so doing, he provides clear evidence of what many have suspected for a long time: that the unethical conduct so common in modern-day football has roots in the early history of the game and has not been limited to the so-called football factories. Reid offhandedly discusses such topics as spying on other teams, pressuring faculty members to give players passing grades, requiring that players cut classes to attend practice, and hiding injuries from players to keep them on the field. By coincidence, Reid kept his diary during the single most inflammatory year in the history of college football. In the fall of 1905, President Roosevelt called a White House conference, attended by Reid and the coaches at Yale and Princeton, to discuss brutality and unethical conduct in college football. Harvard was among a number of institutions that considered dropping the sport in 1905, and a few actually did, including Columbia, California, Northwestern, and Stanford. After the death of a Union College player, a national conference was held to discuss the future of college football, which resulted in the formation of the National Collegiate Athletic Association.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0252020472"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780252020476"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 354,
+        "printType": "BOOK",
+        "categories": [
+          "Sports & Recreation"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.1",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=H0Gz1IZ_vjgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=H0Gz1IZ_vjgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=H0Gz1IZ_vjgC&printsec=frontcover&dq=harvard&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=H0Gz1IZ_vjgC&dq=harvard&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Big_time_Football_at_Harvard_1905.html?hl=&id=H0Gz1IZ_vjgC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=H0Gz1IZ_vjgC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "With the intent of providing a how-to manual for future coaches, Reid set down day by day an account of his activities on and off the field."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "7jBlILRo220C",
+      "etag": "8xirsWKhdAE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/7jBlILRo220C",
+      "volumeInfo": {
+        "title": "Harvard Slavic Studies",
+        "authors": [
+          "Horace G. Lunt"
+        ],
+        "publisher": "Harvard University Press",
+        "publishedDate": "1970-01",
+        "description": "In this volume Mr. Moser presents a searching literary and intellectual biography of this paradoxical figure. He traces Pisemsky's relations with his fellow writers and his contributions to the intellectual life of his time.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0674378040"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780674378049"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 166,
+        "printType": "BOOK",
+        "categories": [
+          "Literary Criticism"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=7jBlILRo220C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=7jBlILRo220C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=7jBlILRo220C&printsec=frontcover&dq=harvard&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=7jBlILRo220C&dq=harvard&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harvard_Slavic_Studies.html?hl=&id=7jBlILRo220C"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=7jBlILRo220C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In this volume Mr. Moser presents a searching literary and intellectual biography of this paradoxical figure. He traces Pisemsky&#39;s relations with his fellow writers and his contributions to the intellectual life of his time."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "XnHVW-_r8OkC",
+      "etag": "iWmtAmLKjcY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/XnHVW-_r8OkC",
+      "volumeInfo": {
+        "title": "Harvard Business Essentials",
+        "subtitle": "Hiring and keeping the best people",
+        "publisher": "Harvard Business Press",
+        "publishedDate": "2002",
+        "description": "Packed with hands-on tips and tools, this authoritative guide offers managersa clear understanding of how to hire more effectively and increase retention.208 pp.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "157851875X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781578518753"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 170,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.3.3.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=XnHVW-_r8OkC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=XnHVW-_r8OkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=XnHVW-_r8OkC&printsec=frontcover&dq=harvard&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=XnHVW-_r8OkC&dq=harvard&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harvard_Business_Essentials.html?hl=&id=XnHVW-_r8OkC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Harvard_Business_Essentials-sample-epub.acsm?id=XnHVW-_r8OkC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Harvard_Business_Essentials-sample-pdf.acsm?id=XnHVW-_r8OkC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=XnHVW-_r8OkC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Packed with hands-on tips and tools, this authoritative guide offers managersa clear understanding of how to hire more effectively and increase retention.208 pp."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "iNmXhmIHZHAC",
+      "etag": "U0R7admzQcI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/iNmXhmIHZHAC",
+      "volumeInfo": {
+        "title": "Harvard Business Essentials",
+        "subtitle": "Negotiation",
+        "authors": [
+          "Richard Luecke"
+        ],
+        "publisher": "Harvard Business Press",
+        "publishedDate": "2003",
+        "description": "Negotiation-whether hammering out a great job offer, settling a dispute with a client, drafting a contract, or making trade-offs between business units-is both a necessary and challenging aspect of business life. In the business world, confident negotiators are always in high demand. Bringing a difficult negotiation to a successful conclusion can be one of the most exhilarating-and valuable-aspects of business today. Packed with practical advice and handy tools,Negotiationwill help any manager sharpen skills and yield a sizable payoff. Contents include: Preparing the necessary information before a negotiation Managing multiparty negotiations Assessing the position of the opposing side Determining your sources of power and authority in a negotiation Recognizing the barriers to agreement and how to overcome them Plus, readers can access free interactive tools on the Harvard Business Essentials companion web site. Series Adviser: Michael Watkins Associate Professor Michael Watkins does research on negotiation and leadership. He is the coauthor ofRight From the Start: Taking Charge in a New Leadership Role(HBS Press, 1999) and the author ofTaking Charge in Your New Leadership Role: A Workbook(HBS Publishing, 2001), both of which examine how new leaders coming into senior management positions should spend their first six months on the job. Harvard Business Essentials The Reliable Source for Busy Managers The Harvard Business Essentials series is designed to provide comprehensive advice, personal coaching, background information, and guidance on the most relevant topics in business. Drawing on rich content from Harvard Business School Publishing and other sources, these concise guides are carefully crafted to provide a highly practical resource for readers with all levels of experience. To assure quality and accuracy, each volume is closely reviewed by a specialized content adviser from a world class business school. Whether you are a new manager interested in expanding your skills or an experienced executive looking for a personal resource, these solution-oriented books offer reliable answers at your fingertips.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "1591391113"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781591391111"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 170,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.4.4.0.preview.3",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=iNmXhmIHZHAC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=iNmXhmIHZHAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.com.br/books?id=iNmXhmIHZHAC&printsec=frontcover&dq=harvard&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.com.br/books?id=iNmXhmIHZHAC&dq=harvard&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Harvard_Business_Essentials.html?hl=&id=iNmXhmIHZHAC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Harvard_Business_Essentials-sample-epub.acsm?id=iNmXhmIHZHAC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Harvard_Business_Essentials-sample-pdf.acsm?id=iNmXhmIHZHAC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=iNmXhmIHZHAC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Whether you are a new manager interested in expanding your skills or an experienced executive looking for a personal resource, these solution-oriented books offer reliable answers at your fingertips."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "zDOZC5Xz7xUC",
+      "etag": "UK4eWWIa3Uw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/zDOZC5Xz7xUC",
+      "volumeInfo": {
+        "title": "Harvard Trends 2013",
+        "subtitle": "45 Tendências de Gestão",
+        "authors": [
+          "Pedro Barbosa"
+        ],
+        "publisher": "Vida Economica Editorial",
+        "publishedDate": "2012-11-01",
+        "description": "Depois do enorme sucesso que o autor teve com “Harvard Trends” em 2012 (segundo livro mais vendido na área da Gestão/Marketing, depois do livro sobre Steve Jobs), que chegou ao top de vendas nacional várias semanas consecutivas no mês mais forte de vendas do ano, chega agora uma nova edição. O “Harvard Trends 2013” é mais, mas não é do mesmo. É um livro inteiramente novo e com um novo enfoque. Continuando a manter a lógica de tendências na área da gestão escritas para uma fácil e rápida leitura, de forma a ser acessível a todos (e não apenas para o nicho de gestores, marketers, empresários e estudantes), o Harvard Trends 2013 abarca novas áreas até agora menos tratadas, como as apps e redes sociais. Embora o core continue centrado em áreas como a gestão de pessoas, marketing ou inovação, são os textos sobre as tendências no Facebook, Twitter e Linkedin que prometem ter mais sucesso, até porque são atualizadíssimos e resumem com uma profundidade interessante o que de mais importante há para saber nesta matéria, em termos de eficácia e de posicionamento. O autor (cujo primeiro best-seller foi “Speculations & Trends” em 2009) publicou já em 2013 o livro “The end of Facebook”, um livro destinado a compreender o futuro do Facebook e das redes sociais. Uma parte da pesquisa desse livro acaba por se encontrar também neste livro. As tendências aprofundadas no “Harvard Trends” foram construídas pelo autor com uma rede de crowdsourcing internacional, recorrendo a um modelo de identificação de tendências que o próprio criou e que foram aprovadas como modelo internacional pelas Universidades de Paris e Veneza. O resultado é um livro pouco académico, escrito de forma simples e assertiva, procurando criar valor pessoal e profissional para todos os que o leem.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9789727886326"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "9727886329"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 328,
+        "printType": "BOOK",
+        "categories": [
+          "Business & Economics"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=zDOZC5Xz7xUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=zDOZC5Xz7xUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "pt",
+        "previewLink": "http://books.google.com.br/books?id=zDOZC5Xz7xUC&pg=PA320&dq=harvard&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=zDOZC5Xz7xUC&source=gbs_api",
+        "canonicalVolumeLink": "https://market.android.com/details?id=book-zDOZC5Xz7xUC"
+      },
+      "saleInfo": {
+        "country": "BR",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 31.53,
+          "currencyCode": "BRL"
+        },
+        "retailPrice": {
+          "amount": 31.53,
+          "currencyCode": "BRL"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=zDOZC5Xz7xUC&rdid=book-zDOZC5Xz7xUC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 31530000,
+              "currencyCode": "BRL"
+            },
+            "retailPrice": {
+              "amountInMicros": 31530000,
+              "currencyCode": "BRL"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "BR",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Harvard_Trends_2013-sample-epub.acsm?id=zDOZC5Xz7xUC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.com.br/books/download/Harvard_Trends_2013-sample-pdf.acsm?id=zDOZC5Xz7xUC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=zDOZC5Xz7xUC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Agradeço a todos terem feito parte deste <b>Harvard</b> Trends, com a certeza que <br>\najudaram a que este livro tivesse um conteúdo mais rico, maduro, completo e <br>\ninteligível. Espero que tenham consciência de que sem a vossa ajuda este livro <br>\nnão&nbsp;..."
+      }
+    }
+  ]
+}
