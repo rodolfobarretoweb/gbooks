@@ -1,9 +1,9 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
 import { reset, reduxForm } from 'redux-form';
-import { Grid, Row, Col, Well } from 'react-bootstrap';
+import { PageHeader, Grid, Row, Col, Well } from 'react-bootstrap';
 import { I18n } from 'react-redux-i18n';
-import { search } from '../../actions/search';
+import { search } from '../../actions/api';
 import { save as saveFavorite } from '../../actions/favorite';
 import { getQueryString } from '../../utils/url';
 import Load from '../../components/load';
@@ -19,12 +19,13 @@ class Search extends PureComponent {
       showLoad : false
     };
 
-    this._onSearch     = this._onSearch.bind(this);
-    this._clearForm    = this._clearForm.bind(this);
-    this._saveFavorite = this._saveFavorite.bind(this);
+    this._onSearch             = this._onSearch.bind(this);
+    this._clearForm            = this._clearForm.bind(this);
+    this._saveFavorite         = this._saveFavorite.bind(this);
+    this._onDetailsButtonPress = this._onDetailsButtonPress.bind(this);
   }
 
-  componentDidMount() {
+  componentWillMount() {
     const { location } = this.props;
 
     if(location && location.search.length) {
@@ -36,22 +37,26 @@ class Search extends PureComponent {
     const { handleSubmit, valid, pristine } = this.props;
 
     return(
-      <Grid>
-        <Row>
-          <Col xs = { 12 } sm = { 12 } md = { 5 } lg = { 4 }>
-            <Form
-              onSubmit    = { handleSubmit(this._onSearch) }
-              onCleanForm = { this._clearForm }
-              valid       = { valid }
-              pristine    = { pristine }
-            />
-          </Col>
+      <div>
+        <PageHeader>{ I18n.t('search.title') }</PageHeader>
 
-          <Col xs = { 12 } sm = { 12 } md = { 7 } lg = { 8 }>
-            { this._renderList() }
-          </Col>
-        </Row>
-      </Grid>
+        <Grid>
+          <Row>
+            <Col xs = { 12 } sm = { 12 } md = { 5 } lg = { 4 }>
+              <Form
+                onSubmit    = { handleSubmit(this._onSearch) }
+                onCleanForm = { this._clearForm }
+                valid       = { valid }
+                pristine    = { pristine }
+              />
+            </Col>
+
+            <Col xs = { 12 } sm = { 12 } md = { 7 } lg = { 8 }>
+              { this._renderList() }
+            </Col>
+          </Row>
+        </Grid>
+      </div>
     );
   }
 
@@ -66,9 +71,10 @@ class Search extends PureComponent {
       return books.items.map((book, index) => {
         return (
           <Item
-            key             = { index }
-            book            = { book }
-            onFavoritePress = { this._saveFavorite }
+            key                  = { index }
+            book                 = { book }
+            onFavoritePress      = { this._saveFavorite }
+            onDetailsButtonPress = { this._onDetailsButtonPress(book.id) }
           />
         );
       });
@@ -92,7 +98,13 @@ class Search extends PureComponent {
   _saveFavorite(book) {
     try {
       this.props.saveFavorite(book.id, book);
-    } catch(error) { console.log(error) }
+    } catch(error) {}
+  }
+
+  _onDetailsButtonPress(id) {
+    return () => {
+      this.props.history.push(`details/${id}`);
+    }
   }
 
   _clearForm() {
@@ -102,7 +114,7 @@ class Search extends PureComponent {
 
 const mapStateToProps = state => {
   return {
-    books : state.search.list
+    books : state.api
   }
 };
 

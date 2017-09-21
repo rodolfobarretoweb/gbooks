@@ -1,5 +1,7 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
+import { PageHeader } from 'react-bootstrap';
+import { I18n } from 'react-redux-i18n';
 import { getAll } from '../../actions/favorite';
 import Item from '../shared/bookItem';
 
@@ -9,25 +11,31 @@ class FavoriteList extends PureComponent {
   }
 
   render() {
+    return (
+      <div>
+        <PageHeader>{ I18n.t('favorite.title') }</PageHeader>
+        { this._renderList() }
+      </div>
+    );
+  }
+
+  _renderList() {
     const { favorites } = this.props;
 
     if(favorites && favorites.length) {
-      return <div>{ this._renderList(favorites) }</div>;
+      return favorites.map((book, index) => {
+        return (
+          <Item
+            renderFavoriteButton = { false }
+            renderDetailsButton  = { false }
+            key                  = { index }
+            book                 = { book }
+          />
+        );
+      });
     }
 
     return null;
-  }
-
-  _renderList(favorites) {
-    return favorites.map((book, index) => {
-      return (
-        <Item
-          renderFavoriteButton = { false }
-          key                  = { index }
-          book                 = { book }
-        />
-      );
-    });
   }
 }
 
