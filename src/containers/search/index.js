@@ -8,6 +8,7 @@ import { save as saveFavorite } from '../../actions/favorite';
 import { getQueryString } from '../../utils/url';
 import Load from '../../components/load';
 import Form from './form';
+import PaginationButtons from './paginationButtons';
 import Item from '../shared/bookItem';
 import validate from './validate';
 
@@ -23,6 +24,7 @@ class Search extends PureComponent {
     this._clearForm            = this._clearForm.bind(this);
     this._saveFavorite         = this._saveFavorite.bind(this);
     this._onDetailsButtonPress = this._onDetailsButtonPress.bind(this);
+    this._updateListLimit      = this._updateListLimit.bind(this);
   }
 
   componentWillMount() {
@@ -52,6 +54,11 @@ class Search extends PureComponent {
             </Col>
 
             <Col xs = { 12 } sm = { 12 } md = { 7 } lg = { 8 }>
+              <PaginationButtons
+                data     = { this.props.books }
+                onChange = { this._updateListLimit }
+              />
+
               { this._renderList() }
             </Col>
           </Row>
@@ -83,10 +90,20 @@ class Search extends PureComponent {
     }
   }
 
+  _updateListLimit(startIndex) {
+    this.setState({ showLoad : true });
+
+    this.props.search(getQueryString(this.props.location, 'query'), startIndex).then(() => {
+      this.setState({ showLoad : false });
+    }).catch((error) => {
+      this.props.history.push('error-message');
+    });
+  }
+
   _onSearch(terms) {
     this.props.history.push(`?query=${terms.query}`);
 
-    this.setState({ showLoad : true });
+    this.setState({ query : terms.query, showLoad : true });
 
     this.props.search(terms.query).then(() => {
       this.setState({ showLoad : false });

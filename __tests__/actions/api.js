@@ -21,7 +21,9 @@ beforeEach(() => {
 
 describe('Search action', () => {
   test('Search successfully', () => {
-    axiosMock.onGet(BASE_URL + '/volumes?q=havard').reply(200, { data : apiSearchResponse });
+    axiosMock.onGet(
+      BASE_URL + '/volumes?q=havard&startIndex=0&maxResults=10'
+    ).reply(200, { data : apiSearchResponse });
 
     return store.dispatch(search('havard')).then((response) => {
       expect(response).toHaveProperty('data');
@@ -30,9 +32,9 @@ describe('Search action', () => {
   });
 
   test('Search without items', () => {
-    axiosMock.onGet(BASE_URL + '/volumes?q=havard').reply(200, {
-      data : { kind : 'books#volumes', totalItems : 0 }
-    });
+    axiosMock.onGet(
+      BASE_URL + '/volumes?q=havard&startIndex=0&maxResults=10'
+    ).reply(200, { data : { kind : 'books#volumes', totalItems : 0 } });
 
     return store.dispatch(search('havard')).then((response) => {
       expect(response).toHaveProperty('data');
@@ -41,7 +43,7 @@ describe('Search action', () => {
   });
 
   test('When fail', () => {
-    axiosMock.onGet(BASE_URL + '/volumes?q=').reply(400, { });
+    axiosMock.onGet(BASE_URL + '/volumes?q=&startIndex=0&maxResults=10').reply(400, { });
 
     return expect(store.dispatch(search(''))).rejects.toBeDefined();
   });
