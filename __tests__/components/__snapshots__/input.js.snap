@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="form-group"
+>
+  <label
+    className="control-label"
+    htmlFor={undefined}
+  >
+    field
+  </label>
+  <input
+    className="form-control"
+    id={undefined}
+    type="search"
+  />
+</div>
+`;
