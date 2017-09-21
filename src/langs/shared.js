@@ -6,6 +6,11 @@ export const shared = {
     favorites : 'Favorites'
   },
 
+  bookItem : {
+    viewDetails : 'View detalhes',
+    favorite : 'Favorite'
+  },
+
   formValidation : {
     minLength : 'This field must have more then %{size} characters'
   }
