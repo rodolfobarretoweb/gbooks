@@ -16,4 +16,8 @@ Load.propTypes = {
   show : PropTypes.bool.isRequired
 };
 
+Load.defaultProps = {
+  show : true
+};
+
 export default Load;

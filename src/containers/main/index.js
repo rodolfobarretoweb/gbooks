@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
-import { Link, withRouter } from "react-router-dom";
-import { Navbar, Grid } from 'react-bootstrap';
+import { withRouter } from "react-router-dom";
+import { Navbar, Nav, NavItem, Grid } from 'react-bootstrap';
 import { I18n } from 'react-redux-i18n';
 import Routes from '../../configs/routes';
 
@@ -15,9 +15,14 @@ class Main extends PureComponent {
         <Navbar inverse fixedTop staticTop>
           <Navbar.Header>
             <Navbar.Brand>
-              <Link to = "/">{ I18n.t('shared.applicationName') }</Link>
+              <a href = "/">{ I18n.t('shared.applicationName') }</a>
             </Navbar.Brand>
           </Navbar.Header>
+
+          <Nav>
+            <NavItem href = "/">{ I18n.t('shared.nav.search') }</NavItem>
+            <NavItem href = "/favorites">{ I18n.t('shared.nav.favorites') }</NavItem>
+          </Nav>
         </Navbar>
 
         <Grid className = "contentContainer">

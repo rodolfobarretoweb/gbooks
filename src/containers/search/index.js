@@ -1,11 +1,14 @@
 import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
 import { reset, reduxForm } from 'redux-form';
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Grid, Row, Col, Well } from 'react-bootstrap';
+import { I18n } from 'react-redux-i18n';
 import { search } from '../../actions/search';
+import { save as saveFavorite } from '../../actions/favorite';
+import { getQueryString } from '../../utils/url';
 import Load from '../../components/load';
-import Form from './components/form';
-import Table from './components/table';
+import Form from './form';
+import Item from '../shared/bookItem';
 import validate from './validate';
 
 class Search extends PureComponent {
@@ -16,8 +19,17 @@ class Search extends PureComponent {
       showLoad : false
     };
 
-    this._onSearch  = this._onSearch.bind(this);
-    this._clearForm = this._clearForm.bind(this);
+    this._onSearch     = this._onSearch.bind(this);
+    this._clearForm    = this._clearForm.bind(this);
+    this._saveFavorite = this._saveFavorite.bind(this);
+  }
+
+  componentDidMount() {
+    const { location } = this.props;
+
+    if(location && location.search.length) {
+      this._onSearch({ query : getQueryString(location, 'query') });
+    }
   }
 
   render() {
@@ -36,21 +48,51 @@ class Search extends PureComponent {
           </Col>
 
           <Col xs = { 12 } sm = { 12 } md = { 7 } lg = { 8 }>
-            { this.state.showLoad ? <Load show/> : <Table data = { this.props.books }/> }
+            { this._renderList() }
           </Col>
         </Row>
       </Grid>
     );
   }
 
+  _renderList() {
+    const { books } = this.props;
+
+    if(this.state.showLoad) {
+      return <Load/>;
+    }
+
+    if(!!books.totalItems) {
+      return books.items.map((book, index) => {
+        return (
+          <Item
+            key             = { index }
+            book            = { book }
+            onFavoritePress = { this._saveFavorite }
+          />
+        );
+      });
+    } else {
+      return <Well>{ I18n.t('search.noResults') }</Well>;
+    }
+  }
+
   _onSearch(terms) {
+    this.props.history.push(`?query=${terms.query}`);
+
     this.setState({ showLoad : true });
 
     this.props.search(terms.query).then(() => {
       this.setState({ showLoad : false });
-    }).catch(() => {
+    }).catch((error) => {
       this.setState({ showLoad : false });
     });
+  }
+
+  _saveFavorite(book) {
+    try {
+      this.props.saveFavorite(book.id, book);
+    } catch(error) { console.log(error) }
   }
 
   _clearForm() {
@@ -64,6 +106,6 @@ const mapStateToProps = state => {
   }
 };
 
-export default connect(mapStateToProps, { search })(
+export default connect(mapStateToProps, { search, saveFavorite })(
   reduxForm({ form : 'search', validate }
 )(Search));

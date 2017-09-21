@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import { I18n } from 'react-redux-i18n';
 import { Field } from 'redux-form';
 import { Form as FormContainer, Panel, Button } from 'react-bootstrap';
-import Input from '../../../components/input';
+import Input from '../../components/input';
 
 class Form extends PureComponent {
   render() {
