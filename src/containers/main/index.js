@@ -17,15 +17,19 @@ class Main extends PureComponent {
             <Navbar.Brand>
               <a href = "/">{ I18n.t('shared.applicationName') }</a>
             </Navbar.Brand>
+
+            <Navbar.Toggle/>
           </Navbar.Header>
 
-          <Nav>
-            <NavItem href = "/">{ I18n.t('shared.nav.search') }</NavItem>
-            <NavItem href = "/favorites">{ I18n.t('shared.nav.favorites') }</NavItem>
-          </Nav>
+          <Navbar.Collapse>
+            <Nav>
+              <NavItem href = "/">{ I18n.t('shared.nav.search') }</NavItem>
+              <NavItem href = "/favorites">{ I18n.t('shared.nav.favorites') }</NavItem>
+            </Nav>
+          </Navbar.Collapse>
         </Navbar>
 
-        <Grid className = "contentContainer">
+        <Grid className = "content-container">
           <Routes/>
         </Grid>
       </div>
