@@ -1,6 +1,6 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import { Media, ButtonToolbar, Button, Glyphicon } from 'react-bootstrap';
+import { Media, Button, Glyphicon } from 'react-bootstrap';
 import { I18n } from 'react-redux-i18n';
 import { truncate } from '../../../utils/string';
 
@@ -34,7 +34,10 @@ class BookItem extends PureComponent {
 
             <b className = "clearfix">{ truncate(book.volumeInfo.subtitle || '', 80) }</b>
             <p>{ truncate(book.volumeInfo.description || '', 300) }</p>
-            <ButtonToolbar>{ this._renderButtons() }</ButtonToolbar>
+
+            <div className = "buttons-container">
+              { this._renderButtons() }
+            </div>
           </Media.Body>
         </Media>
       </div>

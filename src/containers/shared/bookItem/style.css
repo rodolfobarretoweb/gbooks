@@ -4,3 +4,15 @@
   margin-bottom    : 10px;
   border-radius    : 5px;
 }
+
+@media (min-width: 768px) {
+  .buttons-container .btn {
+    margin-right : 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .buttons-container .btn {
+    margin-bottom : 10px;
+  }
+}
