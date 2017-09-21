@@ -6,7 +6,11 @@ export const GET_BY_ID_API = 'GET_BY_ID_API';
 export function search(params) {
   return dispatch => {
     return getApi(`/volumes?q=${params}`).then((response) => {
-      dispatch({ type : SEARCH_API, payload : response.data || [] });
+      const payload = response.data || [];
+
+      dispatch({ type : SEARCH_API, payload });
+
+      return payload;
     });
   }
 }
@@ -14,7 +18,11 @@ export function search(params) {
 export function getById(id) {
   return dispatch => {
     return getApi(`/volumes/${id}`).then((response) => {
-      dispatch({ type : GET_BY_ID_API, payload : response.data || [] });
+      const payload = response.data || [];
+
+      dispatch({ type : GET_BY_ID_API, payload });
+
+      return payload;
     });
   };
 }
